@@ -1,85 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
-
+import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;       
-}
-.big-3{
-    text-align: center;
-    margin: 70px 30px;
-}
-.big-3 h3{
-    text-align: center;
-}
-
-.fa{
-    font-size: 4em;
-    color: blueviolet;
-}
-.logo{
-   margin: 0 auto;
-   display: block;
-   padding: 10px;
-}
-main .fa{
-    font-size: 5em;
-    color: blueviolet;
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-  
-}
-
-nav ul {
-    text-align: right;
-    padding-top: 30px;
-    padding-right: 20px;
-}
-#game{
-    background-image:url(images/background.image_game.jpg);
-    background-size: cover;
-    border-top: 10px solid #014B62;
-    border-bottom: 10px solid #014B62;
-    border-left: 10px solid #014B62;
-    border-right: 10px solid #014B62;
-    border-radius: 30px;
-}
-h1, h2, h3{
-   font-family: "Montserrat", sans-serif;
-    color: #014B62;
-}
-h2{
-    border-bottom: 3px solid #014B62;
-    
-}
-
-
-.montserrat-<uniquifier> {
-  font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-.home-hero{
-    background-image: url(images/network-header%20.jpg);
-    background-size: cover;
-  }
-.home-hero h1{
-    font-family: 'Dancing script', corsiva;
-    color: white;
-    font-size: 40px;
-    text-shadow: 2px 2px 2px black;
-    padding: 30px 0;
+    font-family:"Montserrat", sans-serif;
     margin: 0;
+    color: lightgreen;
+    }
+main .fa{
+    font-size: 2em;
+    color: #ffffff;
 }
-.home-photo{
-    float: right;
-    max-height: 50%;
-    height: auto;
-    margin: 50px 0 10px 20px;
+.fa{
+    font-size: 2em;
+    color: #ffc61a;
 }
+footer.fa,{
+    background-color: peachpuff;
+    font-size: 2em;
+    color: lightblue;
+}
+
+
+
+h3{
+    font-size: 1.5em;
+}
+
 
 /* Website Links except the nav */
 
@@ -96,15 +41,13 @@ a:active{
 	color: black;
 }
 
-header .canvas {
-      border: 1px solid #99ccff;
-      background-color: #cc6699;
-      text-align: center;
+header{
+    text-align: center;
 }
 /*Navigation */
 nav{
-    background-color: lightskyblue;
-    border-top: 3px solid aqua;
+    background-color:#333300;
+    border-top: 3px solid black;
     border-bottom: 3px solid black;
     padding: 5px;
 }
@@ -132,15 +75,28 @@ nav a:hover{
     color: darkgreen;
 }
 nav a:active{
-    color: lightblue;
+    color: darkgoldenrod;
 }
 /*Main */
 main{
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 20px auto;
     padding: 19px;
+    background: rgb(215,94,38);
+    background: radial-gradient(circle, rgba(215,94,38,1) 0%, rgba(116,76,29,1) 4%, rgba(203,96,36,1) 8%, rgba(196,98,34,1) 13%, rgba(163,61,54,1) 21%, rgba(159,56,56,1) 22%, rgba(146,66,49,1) 33%, rgba(140,70,46,1) 38%, rgba(129,78,40,1) 47%, rgba(116,71,29,1) 50%, rgba(124,81,37,1) 51%, rgba(123,82,36,1) 52%, rgba(121,84,35,1) 54%, rgba(65,125,4,1) 100%);
+    
 }
-
+/* Footer*/
+footer{
+    border-top: black 3px solid;
+    text-align: left;
+    background: #333300;
+   
+    
+    color: black;
+    font-size: 1em;
+    
+}
 .gallery .preview{
     width: 100%;
     height: auto;
@@ -165,26 +121,10 @@ main{
     display: block !important;
 }
 
-/* Footer*/
-footer{
-    border-top: black 3px solid;
-    text-align: center;
-    font-size: .7em;
-    font-style: italic;
-    padding 1em;
-    border-top: black 3px solid;
-    text-align: center;
-    padding: 3px;
-    background-color: lightblue;
-}
-.footer @copyright{
-    padding: 1em 1em 1em 1em;
-    color: black;
-    text-align: white;
-}
  /*CSS without a media query--applies to all sizes unless overridden*/
 h1{
-		font-size: 4em;
+    font-size: 4em;
+    color: #333300;
  }
 /* CSS Adjustments for Tablets */
 @media only screen and (max-width: 1024px) {
@@ -198,40 +138,5 @@ h1{
 		font-size: 1.5em;
 	}
 }
-/* JavaScript Game changes for mobile */
-.mobile{
-	display:none;
-}
-@media only screen and (max-width: 768px){
-	.desktop{
-   display:none;
-	}
-	.mobile{
-		display: block;
-		touch-action: manipulation;
-	}
-}
 
 
-h1{
-    
-    text-align: center;
-    font: Italic;
-    text-decoration-color: aquamarine;
-    
-}
-.my-button:link{
-    background-color: skyblue;
-    color: white;
-    border-radius: 50px;
-    border: 1px solid #111111;
-    margin: 50px;
-    text-align: center;
-}
-.my-button: hover{
-    background-color: deepskyblue;
-    text-decoration: none;
-}
-
-
- 
